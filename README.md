@@ -1,4 +1,4 @@
-# OASIS INFIBYTE INTERNSHIP PROJECTS
+## OIBSIP INTERNSHIP PROJECTS
 
 * In this repo, I will upload his completed task code.
 
