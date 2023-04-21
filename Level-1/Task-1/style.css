@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.wrapper{ 
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    background-color: rgba(229, 230, 230, 0.978);
+}
+
+.nav{
+    /* width: 90%; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    /* background-color: crimson; */
+    top: 0;
+    position: sticky;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-left{
+  /* width: 20%; */
+  width: 30%;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.nav-left span{
+    font-size: 60px;
+    color: crimson;
+}
+
+.nav-left p{
+    font-size: 40px;
+    color: rgb(255, 153, 0);
+}
+
+.nav-right{
+    /* width: 60%; */
+    width: 30%;
+    text-align: right;
+}
+
+.nav-right ul{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-right ul li{
+    list-style: none;
+    text-align: right;
+}
+
+.nav-right ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.btn-div{
+    width: 30%;
+    text-align: right;
+    margin: auto;
+}
+
+.btn{
+    padding: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    color: crimson;
+    border: 2px solid crimson;
+    border-radius: 12px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-left{
+    width: 46%;
+}
+
+.hero-left h3{
+    margin: 10px;
+    font-size: 37px;
+    color: crimson;
+}
+
+.hero-left p{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(88, 75, 78);
+    word-spacing: 5px;
+}
+
+.hero-right{
+    width: 46%;
+    float: right;
+}    
+
+.hero-right img{
+    width: 90%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

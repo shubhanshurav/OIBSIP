@@ -1,0 +1,254 @@
+
+/* for Tablets */
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+
+    .horizontal-list li a{
+        font-size: 21px;
+    }
+
+    #my-name{
+        font-size: 2.4rem;
+    }
+
+    #about-para{
+        font-size: 0.95rem;
+    }
+
+    #my-image img{
+        width: 80%; 
+        height: 80%;
+        border-radius: 50%;
+    }
+
+    .horizontal-list li a{
+        font-size: 21px;
+    }
+
+    #my-name{
+        font-size: 2.4rem;
+    }
+
+    #about-para{
+        font-size: 0.95rem;
+    }
+
+    .skill-name span{
+        font-size: 0.9rem;
+    }
+
+    .section-heading span{
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .experience-designation {
+        font-size: 1.2rem;
+    }
+
+    .experience-company-name{
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+
+    #contact-form button[type="submit"]{
+        font-size: 0.8rem;
+    }
+
+    #my-details-container h3 {
+        font-size: 1.08rem;
+    }
+
+    #my-details-container p {
+        color: #d9dcdd;
+        font-size: 0.83rem;
+    }
+
+    .my-details-info-container span {
+        font-size: 0.83rem;
+    }
+
+    .footertext h6{
+        font-size: 25px;
+    }
+    
+}
+
+@media only screen and (min-width:320px) and (max-width:767px){
+
+    .section-heading span{
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .mb75px {
+        margin-bottom: 35px;
+    }
+
+    .skill-progress{
+        height: 2rem;
+        width: 14rem;
+    }
+
+    /* .skill-name span{
+        
+    } */
+
+    .experience-designation {
+        font-size: 0.85rem;
+    }
+
+    #timeline-divider{
+        top: 10%;
+        left: 8%;
+        height: 87%;
+    }
+
+    /* .timeline-box::after {
+        top: 88%;
+    }
+
+    .timeline-box:nth-child(2n+1)::after {
+        right: -10.5%;
+    }   */
+
+    .timeline-box{
+        left: 12% !important;
+        width: 80%;
+    }
+
+    /* .timeline-box:nth-child(2n){
+        left: 12%;
+    } */
+
+    html{
+        font-size: 15px;
+    }
+
+    .experience-company-name{
+        font-size: 0.65rem;
+        font-weight: 400;
+    }
+
+    .experience-duration{
+        font-size: 0.7rem;
+    }
+
+    .timeline-logo{
+       left: -20px;
+    }
+
+    .timeline-logo img {
+        width: 55%;
+        float: left;
+        margin: 5px;
+        border-radius: 8px;
+    }
+
+    #contact-container {
+        display: inline-block;
+    }
+
+    #my-details-container {
+        width: 95%;
+        padding-top: 50px;
+        margin-left: 6%;
+    }
+
+    #contact-form-container{
+         width: 100%; 
+    }
+
+    #contact-form input,textarea {
+        max-width: 90%;
+        margin: 10px;
+        padding: 6px 15px;
+        width: 75%;
+        font-size: 0.9rem;
+    }
+
+    #contact-form button[type="submit"] {
+        font-size: 0.77rem;
+        margin-left: 4%;
+        border-radius: 4.5px;
+    }
+ 
+    #contact .social-icons li a i {
+        font-size: 1rem;
+        margin: 33px 10px 10px;
+        padding: 0.5px;
+        border-radius: 50%;
+    }
+
+    #my-details-container p {
+        font-size: 0.9rem;
+        width: 94%;
+    }
+
+    .footertext h6 {
+        font-size: 11px;
+        font-family: cursive;
+        letter-spacing: 1px;
+        word-spacing: 0;
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width:1300px){
+
+    .project-container{
+        padding: 5px;
+        margin: 10px;
+        gap: 60px;
+    }
+
+    .project-card{
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .project-content{
+        scale: 0.5;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+
+    .project-content-left{
+        left: 0;
+    }
+
+    .project-heading{
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .project-sub-heading{
+        width: 100%;
+    }
+
+    #project2{
+        margin-left: 0;
+    }
+
+    #project4{
+        margin-left: 0;
+    }
+
+    .project-skill-container{
+        width: 100%;
+    }
+
+    .project-skill{
+        width: 35px;
+    }
+
+    .project-card:hover .project-number{
+        scale: 0.55;
+    }
+}
